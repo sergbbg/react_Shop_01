@@ -24,7 +24,7 @@ class App extends React.Component {
          {
           id:2,
           title: 'Стул 2',
-          img:'styl.jpg',
+          img:'стул4.jpg',
           desk: 'lorem iflf lflfl lfllf',
           category: 'chairs',
           price: '49.99'
@@ -39,8 +39,24 @@ class App extends React.Component {
          },
          {
           id:4,
-          title: 'Стул 4',
-          img:'styl.jpg',
+          title: 'Диван 1',
+          img:'диван1.jpg',
+          desk: 'lorem iflf lflfl lfllf',
+          category: 'sofa',
+          price: '49.99'
+         },
+         {
+          id:5,
+          title: 'Диван 2',
+          img:'диван2.jpg',
+          desk: 'lorem iflf lflfl lfllf',
+          category: 'sofa',
+          price: '49.99'
+         },
+         {
+          id:6,
+          title: 'Диван 3',
+          img:'диван3.webp',
           desk: 'lorem iflf lflfl lfllf',
           category: 'sofa',
           price: '49.99'

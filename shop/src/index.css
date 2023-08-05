@@ -98,10 +98,10 @@ header{
 .shop-cart{
   position: absolute;
   top: 30px;
-  right: 0;
+  right:20px;
   width: 450px;
   min-height: 100px;
-  background:#f9f;
+  background:rgb(210, 210, 210);
   box-shadow: 4px 5px 15px -7px #606060;
   z-index: 100;
   padding: 20px;
@@ -111,7 +111,7 @@ header{
 .item{
   width: 100%;
   float:left;
-  margin-bottom: 20px;
+  margin-bottom:10px
 }
 
 .item img{
@@ -138,4 +138,26 @@ header{
   top:-25px;
   cursor: pointer;
   
+}
+
+.item img{
+  height: 70%;
+}
+
+.sum_basket{
+  font-size:16px;
+  font-weight: 600;
+}
+.shop-cart .item img{
+  width: 60px;
+  height: 70px;
+}
+.Categories_nav{
+  display: flex;
+
+}
+
+.Categories_nav div{
+  padding: 10px 20px 10px 0 ;
+  cursor: pointer;
 }
